@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Bookmark 1"
+        android:id="@+id/bm_1"
+        />
+    <item android:title="Bookmark 2"
+        android:id="@+id/bm_2"
+        />
+    <item android:title="Bookmark 3"
+        android:id="@+id/bm_3"
+        />
+    <item android:title="Bookmark 4"
+        android:id="@+id/bm_4"
+        />
+    <item android:title="Bookmark 5"
+        android:id="@+id/bm_5"
+        />
+
+
+</menu>

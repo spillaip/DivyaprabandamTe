@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item android:title="ముదల్ ఆయిరం">
+        <menu>
+            <item
+                android:id="@+id/nav_tirupallandu"
+                android:icon="@drawable/namaskar"
+                android:title="తిరుప్పల్లాండు" />
+            <item
+                android:id="@+id/nav_periyalwartirumozhi"
+                android:icon="@drawable/namaskar"
+                android:title="పెరియాళ్వార్ తిరుమొళి" />
+            <item
+                android:id="@+id/nav_tiruppavai"
+                android:icon="@drawable/namaskar"
+                android:title="తిరుప్పావై" />
+            <item
+                android:id="@+id/nav_nachiyartirumozhi"
+                android:icon="@drawable/namaskar"
+                android:title="నాచియార్ తిరుమొళి" />
+            <item
+                android:id="@+id/nav_perumaltirumozhi"
+                android:icon="@drawable/namaskar"
+                android:title="పెరుమాళ్ తిరుమొళి" />
+            <item
+                android:id="@+id/nav_tiruchandavirutham"
+                android:icon="@drawable/namaskar"
+                android:title="తిరుచ్చంద విరుత్తమ్" />
+            <item
+                android:id="@+id/nav_tirumaalai"
+                android:icon="@drawable/namaskar"
+                android:title="తిరుమాలై" />
+            <item
+                android:id="@+id/nav_tirupalliyezhuchi"
+                android:icon="@drawable/namaskar"
+                android:title="తిరుప్పల్లియేడుచ్చి" />
+            <item
+                android:id="@+id/nav_amalanadhipiran"
+                android:icon="@drawable/namaskar"
+                android:title="అమలనాది పిరాన్" />
+            <item
+                android:id="@+id/nav_kanninumsiruthambu"
+                android:icon="@drawable/namaskar"
+                android:title="కన్నినున్ శిరుత్తంబు" />
+        </menu>
+    </item>
+    <item android:title="ఇరందం ఆయిరం">
+        <menu>
+            <item
+                android:id="@+id/nav_periyatirumozhi"
+                android:icon="@drawable/namaskar"
+                android:title="பపెరియ తిరుమొళి" />
+            <item
+                android:id="@+id/nav_tirukurunthandagam"
+                android:icon="@drawable/namaskar"
+                android:title="కురున్ తండగం" />
+            <item
+                android:id="@+id/nav_tirunedunthandagam"
+                android:icon="@drawable/namaskar"
+                android:title="నెడుమ్ తండగం" />
+        </menu>
+    </item>
+
+    <item android:title="మూన్రం ఆయిరం ">
+        <menu>
+            <item
+                android:id="@+id/nav_mudaltiruvandhadhi"
+                android:icon="@drawable/namaskar"
+                android:title="ముదల్ తిరువందాడి" />
+            <item
+                android:id="@+id/nav_irandamtiruvandhadhi"
+                android:icon="@drawable/namaskar"
+                android:title="ఇరందం తిరువందాడి" />
+            <item
+                android:id="@+id/nav_mundramtiruvandhadhi"
+                android:icon="@drawable/namaskar"
+                android:title="మూన్రం తిరువందాడి" />
+            <item
+                android:id="@+id/nav_nanmugantiruvandhadhi"
+                android:icon="@drawable/namaskar"
+                android:title="నాన్ముగన్ తిరువంతాడి" />
+            <item
+                android:id="@+id/nav_tiruvirutham"
+                android:icon="@drawable/namaskar"
+                android:title="తిరువిరుత్తమం" />
+            <item
+                android:id="@+id/nav_tiruvasirium"
+                android:icon="@drawable/namaskar"
+                android:title="తిరువాశిరియం" />
+            <item
+                android:id="@+id/nav_periyatiruvandhadhi"
+                android:icon="@drawable/namaskar"
+                android:title="పెరియ తిరువందాడి" />
+            <item
+                android:id="@+id/nav_tiruyezhukutrarikkai"
+                android:icon="@drawable/namaskar"
+                android:title="తిరువెళుక్కుర్రిరుక్కై" />
+            <item
+                android:id="@+id/nav_siriyatirumadal"
+                android:icon="@drawable/namaskar"
+                android:title="సిరియ తిరుమడల్" />
+            <item
+                android:id="@+id/nav_periyatirumadal"
+                android:icon="@drawable/namaskar"
+                android:title="పెరియ తిరుమడల్" />
+        </menu>
+    </item>
+    <item android:title="నంగమ్ ఆయిరం">
+    <menu>
+        <item
+        android:id="@+id/nav_tiruvoimozhi"
+            android:icon="@drawable/namaskar"
+        android:title="తిరువైమొళి" />
+    <item
+        android:id="@+id/nav_iramanusanootrandhadhi"
+        android:icon="@drawable/namaskar"
+        android:title="రామానుజ నూరందాడి" />
+    </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/action_map"
+                android:icon="@drawable/ic_action_map"
+                android:title="Map"
+                 />
+
+            <item
+                android:id="@+id/action_notify"
+                android:icon="@drawable/ic_action_notify"
+                android:title="రోజు అంత నాలాయిరమ్"
+                />
+
+            <item
+                android:id="@+id/action_bhagyam"
+                android:icon="@drawable/namaskar"
+                android:title="ఆడియెన్ భాగ్యము"
+                />
+
+            <item
+                android:id="@+id/nav_refresh"
+                android:icon="@drawable/ic_action_refresh"
+                android:title="Refresh" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share"
+
+                 />
+            <item
+                android:id="@+id/nav_bookmarks"
+                android:icon="@drawable/ic_action_bookmark"
+                android:title="Bookmarks" />
+        </menu>
+    </item>
+
+</menu>

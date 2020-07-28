@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_filter"
+        android:title="Thedal"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <group android:id="@+id/top_down_navigation"  android:orderInCategory="1">
+    <item
+        android:id="@+id/action_increase_first"
+        android:icon="@drawable/ic_action_books"
+        android:orderInCategory="1"
+        android:title="@string/action_increase_first"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_increase_last"
+        android:icon="@drawable/ic_action_books"
+        android:orderInCategory="2"
+        android:title="@string/action_increase_last"
+        app:showAsAction="never" />
+    </group>
+    <group android:id="@+id/forward_navigation" android:orderInCategory="2">
+        <item
+            android:id="@+id/action_increase_ten"
+            android:icon="@drawable/ic_action_books"
+            android:orderInCategory="3"
+            android:title="@string/action_increase_ten"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_increase_twenty"
+            android:icon="@drawable/ic_action_books"
+            android:orderInCategory="4"
+            android:title="@string/action_increase_twenty"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_increase_fifty"
+            android:icon="@drawable/ic_action_books"
+            android:orderInCategory="5"
+            android:title="@string/action_increase_fifty"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_increase_hundred"
+            android:icon="@drawable/ic_action_books"
+            android:orderInCategory="6"
+            android:title="@string/action_increase_hundred"
+            app:showAsAction="never" />
+    </group>
+    <group android:id="@+id/backward_navigation" android:orderInCategory="3">
+        <item
+            android:id="@+id/action_decrease_ten"
+            android:icon="@drawable/ic_action_books"
+            android:orderInCategory="7"
+            android:title="@string/action_decrease_ten"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_decrease_twenty"
+            android:icon="@drawable/ic_action_books"
+            android:orderInCategory="8"
+            android:title="@string/action_decrease_twenty"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_decrease_fifty"
+            android:icon="@drawable/ic_action_books"
+            android:orderInCategory="9"
+            android:title="@string/action_decrease_fifty"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_decrease_hundred"
+            android:icon="@drawable/ic_action_books"
+            android:orderInCategory="10"
+            android:title="@string/action_decrease_hundred"
+            app:showAsAction="never" />
+
+    </group>
+
+</menu>
